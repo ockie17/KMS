@@ -32,7 +32,7 @@ const moduleLabels: Record<ModuleType, string> = {
   settings: "Pengaturan",
 }
 
-export default function MuseumERP() {
+export default function Page() {
   const [activeModule, setActiveModule] = useState<ModuleType>("dashboard")
 
   const renderModule = () => {
